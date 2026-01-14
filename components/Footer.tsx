@@ -12,20 +12,20 @@ const Footer: React.FC = () => {
         
         <a 
           href={SOCIAL_LINKS.email} 
-          className="inline-block border border-emerald-400 text-emerald-400 px-6 py-3 rounded font-mono text-sm hover:bg-emerald-400/10 transition-colors mb-12"
+          className="inline-block border border-emerald-400 text-emerald-400 px-6 py-3 rounded font-mono text-sm hover:bg-emerald-400/10 transition-colors mb-12 focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:ring-offset-2 focus:ring-offset-slate-950"
         >
           Say Hello
         </a>
 
         <div className="flex justify-center gap-8 mb-8">
-           <a href={SOCIAL_LINKS.github} className="text-slate-400 hover:text-emerald-400 text-xl transition-colors">
-             <i className="fa-brands fa-github"></i>
+           <a href={SOCIAL_LINKS.github} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-emerald-400 text-xl transition-colors focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:ring-offset-2 focus:ring-offset-slate-950 rounded" aria-label="Visit GitHub Profile">
+             <i className="fa-brands fa-github" aria-hidden="true"></i>
            </a>
-           <a href={SOCIAL_LINKS.linkedin} className="text-slate-400 hover:text-cyan-400 text-xl transition-colors">
-             <i className="fa-brands fa-linkedin"></i>
+           <a href={SOCIAL_LINKS.linkedin} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-cyan-400 text-xl transition-colors focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-slate-950 rounded" aria-label="Visit LinkedIn Profile">
+             <i className="fa-brands fa-linkedin" aria-hidden="true"></i>
            </a>
-           <a href={SOCIAL_LINKS.email} className="text-slate-400 hover:text-emerald-400 text-xl transition-colors">
-             <i className="fa-solid fa-envelope"></i>
+           <a href={SOCIAL_LINKS.email} className="text-slate-400 hover:text-emerald-400 text-xl transition-colors focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:ring-offset-2 focus:ring-offset-slate-950 rounded" aria-label="Send Email">
+             <i className="fa-solid fa-envelope" aria-hidden="true"></i>
            </a>
         </div>
 

@@ -12,18 +12,18 @@ const About: React.FC = () => {
         </div>
 
         <div className="grid md:grid-cols-5 gap-12">
-          <div className="md:col-span-3 text-slate-400 leading-relaxed space-y-4">
+          <article className="md:col-span-3 text-slate-400 leading-relaxed space-y-4">
             <h3 className="text-xl text-slate-200 font-bold mb-2">The Spatial Engineer</h3>
             <p>
-              I am a Software Engineer based in Ottawa with a unique edge: I don't just build systems; I build <span className="text-emerald-400">location-aware intelligence</span>.
+              I am a Software Engineer specializing in <span className="text-emerald-400">high-performance backend architecture</span> and <span className="text-cyan-400">geospatial intelligence</span>. Expert in developing scalable systems using Python (FastAPI) and optimizing enterprise relational databases (Oracle/PostgreSQL).
             </p>
             <p>
-              With a background in Computer Programming & Analysis and professional experience at <span className="text-cyan-400 font-mono">Xenara AI</span> and <span className="text-cyan-400 font-mono">Appy.yo</span>, I specialize in optimizing backend architectures, managing complex SQL databases, and automating GIS workflows.
+              With professional experience at <span className="text-cyan-400 font-mono">Xenara AI</span> and <span className="text-cyan-400 font-mono">Appy.yo</span>, I specialize in integrating AI/LLMs with GIS workflows (ArcGIS/PostGIS) to automate complex data processing and deliver evidence-based location intelligence.
             </p>
             <p>
               My goal is to break down the silos between traditional software engineering and spatial analysis, creating tools that leverage the power of location data to solve real-world problems.
             </p>
-          </div>
+          </article>
           
           <div className="md:col-span-2 relative group">
             {/* Abstract visual representation of "Spatial Engineer" since no image was provided */}

@@ -14,23 +14,23 @@ const Skills: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {SKILL_GROUPS.map((group, index) => (
-            <div key={index} className="bg-slate-850 p-6 rounded-lg border border-slate-800 hover:border-emerald-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-emerald-900/20 group">
+            <article key={index} className="bg-slate-850 p-6 rounded-lg border border-slate-800 hover:border-emerald-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-emerald-900/20 group">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-10 h-10 rounded bg-slate-800 flex items-center justify-center text-emerald-400 group-hover:text-cyan-400 transition-colors">
+                <div className="w-10 h-10 rounded bg-slate-800 flex items-center justify-center text-emerald-400 group-hover:text-cyan-400 transition-colors" aria-hidden="true">
                   <i className={`${group.icon} text-lg`}></i>
                 </div>
                 <h3 className="text-xl font-bold text-slate-200">{group.category}</h3>
               </div>
               
-              <ul className="space-y-3">
+              <ul className="space-y-3" aria-label={`${group.category} skills`}>
                 {group.skills.map((skill, i) => (
                   <li key={i} className="flex items-center gap-2 text-slate-400 font-mono text-sm">
-                    <i className="fa-solid fa-caret-right text-emerald-500/70 text-xs"></i>
+                    <i className="fa-solid fa-caret-right text-emerald-500/70 text-xs" aria-hidden="true"></i>
                     {skill}
                   </li>
                 ))}
               </ul>
-            </div>
+            </article>
           ))}
         </div>
       </div>

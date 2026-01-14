@@ -79,6 +79,50 @@
           transform: translateY(0);
         }
       }
+      
+      /* Slow spinning animation for globe */
+      .animate-spin-slow {
+        animation: spin 20s linear infinite;
+      }
+      
+      @keyframes spin {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      
+      /* Screen reader only class - for skip to content link */
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border-width: 0;
+      }
+      
+      .sr-only:focus {
+        position: static;
+        width: auto;
+        height: auto;
+        padding: inherit;
+        margin: inherit;
+        overflow: visible;
+        clip: auto;
+        white-space: normal;
+      }
+      
+      /* High visibility focus rings for accessibility */
+      *:focus-visible {
+        outline: 2px solid transparent;
+        outline-offset: 2px;
+      }
     </style>
   <script type="importmap">
 {

@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
-            <a href="#" className="font-mono text-xl font-bold text-emerald-400">
+            <a href="#" className="font-mono text-xl font-bold text-emerald-400 focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:ring-offset-2 focus:ring-offset-slate-950 rounded px-2 py-1">
               <span className="text-white">JT</span>.map()
             </a>
           </div>
@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
                 <a
                   key={link.name}
                   href={link.href}
-                  className="font-mono text-sm hover:text-emerald-400 transition-colors duration-300"
+                  className="font-mono text-sm hover:text-emerald-400 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:ring-offset-2 focus:ring-offset-slate-950 rounded px-2 py-1"
                 >
                   <span className="text-emerald-400 mr-1">0{navLinks.indexOf(link) + 1}.</span>
                   {link.name}
@@ -44,9 +44,9 @@ const Navbar: React.FC = () => {
             <button
               onClick={toggleMenu}
               type="button"
-              className="inline-flex items-center justify-center p-2 rounded-md text-slate-400 hover:text-white hover:bg-slate-800 focus:outline-none"
+              className="inline-flex items-center justify-center p-2 rounded-md text-slate-400 hover:text-white hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:ring-offset-2 focus:ring-offset-slate-950"
               aria-controls="mobile-menu"
-              aria-expanded="false"
+              aria-expanded={isOpen}
             >
               <span className="sr-only">Open main menu</span>
               <i className={`fas ${isOpen ? 'fa-times' : 'fa-bars'} text-xl`}></i>
@@ -64,7 +64,7 @@ const Navbar: React.FC = () => {
                 key={link.name}
                 href={link.href}
                 onClick={() => setIsOpen(false)}
-                className="text-gray-300 hover:text-white hover:bg-slate-800 block px-3 py-2 rounded-md text-base font-medium font-mono"
+                className="text-gray-300 hover:text-white hover:bg-slate-800 block px-3 py-2 rounded-md text-base font-medium font-mono focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:ring-offset-2 focus:ring-offset-slate-900"
               >
                 <span className="text-emerald-400 mr-2">0{navLinks.indexOf(link) + 1}.</span>
                 {link.name}

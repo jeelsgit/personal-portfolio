@@ -2,6 +2,7 @@ export interface Project {
   title: string;
   description: string;
   tech: string[];
+  repoUrl?: string;
 }
 
 export interface Experience {

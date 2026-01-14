@@ -14,13 +14,13 @@ const Experience: React.FC = () => {
 
         <div className="relative border-l border-slate-700 ml-3 md:ml-6 space-y-12">
           {EXPERIENCE_DATA.map((exp, index) => (
-            <div key={index} className="relative pl-8 md:pl-12 group">
+            <article key={index} className="relative pl-8 md:pl-12 group">
               {/* Timeline Dot */}
-              <div className="absolute -left-[5px] top-2 h-3 w-3 rounded-full bg-slate-700 border border-slate-900 group-hover:bg-emerald-400 transition-colors duration-300"></div>
+              <div className="absolute -left-[5px] top-2 h-3 w-3 rounded-full bg-slate-700 border border-slate-900 group-hover:bg-emerald-400 transition-colors duration-300" aria-hidden="true"></div>
               
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
                 <h3 className="text-xl font-bold text-slate-100">{exp.role}</h3>
-                <span className="font-mono text-xs text-slate-500 bg-slate-800 px-2 py-1 rounded border border-slate-700">{exp.date}</span>
+                <time className="font-mono text-xs text-slate-500 bg-slate-800 px-2 py-1 rounded border border-slate-700" dateTime={exp.date}>{exp.date}</time>
               </div>
               
               <div className="text-emerald-400 font-mono text-sm mb-4">{exp.company}</div>
@@ -28,12 +28,12 @@ const Experience: React.FC = () => {
               <ul className="space-y-2">
                 {exp.achievements.map((item, i) => (
                   <li key={i} className="flex items-start gap-3 text-slate-400 text-sm leading-relaxed">
-                    <span className="mt-1.5 min-w-[6px] h-[6px] rounded-full bg-cyan-500/60"></span>
+                    <span className="mt-1.5 min-w-[6px] h-[6px] rounded-full bg-cyan-500/60" aria-hidden="true"></span>
                     <span>{item}</span>
                   </li>
                 ))}
               </ul>
-            </div>
+            </article>
           ))}
         </div>
       </div>
