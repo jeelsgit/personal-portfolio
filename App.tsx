@@ -4,7 +4,10 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
+import Education from './components/Education';
 import Projects from './components/Projects';
+import Certifications from './components/Certifications';
+import Activities from './components/Activities';
 import Footer from './components/Footer';
 
 const App: React.FC = () => {
@@ -23,7 +26,10 @@ const App: React.FC = () => {
         <About />
         <Skills />
         <Experience />
+        <Education />
         <Projects />
+        <Certifications />
+        <Activities />
       </main>
       <Footer />
     </div>

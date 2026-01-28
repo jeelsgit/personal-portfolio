@@ -1,4 +1,4 @@
-import { Experience, Project, SkillGroup } from './types';
+import { Experience, Project, SkillGroup, Education, Certification, Activity } from './types';
 
 export const SOCIAL_LINKS = {
   github: "https://github.com/jeelsgit",
@@ -35,11 +35,10 @@ export const EXPERIENCE_DATA: Experience[] = [
     company: "Xenara AI | Remote",
     date: "March 2025 – December 2025",
     achievements: [
-      "Architected RAG pipelines using LangChain and Pinecone to integrate LLMs with geospatial datasets, effectively bridging the gap between conversational AI and GIS mapping tools.",
-      "Developed scalable FastAPI endpoints integrated with Redis in-memory caching, reducing latency for complex spatial data retrieval by 30% and optimizing API usage costs.",
-      "Built automated ETL pipelines using Python and SpaCy to extract named entities from unstructured text, transforming raw inputs into structured formats suitable for downstream spatial analysis.",
-      "Conducted deep-dive root cause analysis on production data workflows, implementing error-handling logic and optimizations that significantly reduced processing runtime errors.",
-      "Managed containerized application deployment using Docker on Oracle Cloud Infrastructure (OCI), ensuring consistent environments across development and production."
+      "RAG Architecture: Architected production-ready Retrieval-Augmented Generation (RAG) pipelines using LangChain and Pinecone, enabling semantic search over large unstructured datasets.",
+      "Backend Optimization: Engineered high-performance FastAPI endpoints integrated with Redis caching, reducing data retrieval latency by 30% for high-traffic endpoints.",
+      "NLP Pipelines: Implemented automated ETL workflows using Python and SpaCy to extract named entities from raw text, transforming unstructured inputs into structured JSON formats for analytics.",
+      "DevOps & Cloud: Managed containerized application deployments using Docker on Oracle Cloud Infrastructure (OCI), ensuring consistent environments across development and production."
     ]
   },
   {
@@ -71,6 +70,7 @@ export const PROJECT_DATA: Project[] = [
     title: "Task Management System",
     description: "Built a distributed REST API layer using Java with 90%+ test coverage, ensuring system stability and scalability. Developed a responsive frontend user interface using TypeScript, enabling seamless interaction with backend services for task tracking and status updates.",
     tech: ["Java", "TypeScript", "REST API"],
+    repoUrl: "https://github.com/jeelsgit/Task-Manager",
   },
   {
     title: "Spotify Database Architecture",
@@ -108,3 +108,107 @@ export const PROJECT_DATA: Project[] = [
       repoUrl: 'https://github.com/jeelsgit/Ottawa-Accessibility-Analysis',
   },
 ];
+
+export const EDUCATION_DATA: Education[] = [
+  {
+    degree: "Computer Programming & Analysis (Diploma)",
+    school: "Algonquin College",
+    location: "Ottawa, Canada",
+    graduatedDate: "August 2025",
+    honors: "Honors",
+    gpa: "3.7",
+    description: "A comprehensive program focused on software development, object-oriented programming, database systems, and full-stack application development, with hands-on experience through real-world academic projects.",
+    keyAreas: [
+      "Object-Oriented Programming (Java, C#)",
+      "Data Structures & Algorithms",
+      "Database Design & SQL",
+      "Web Application Development",
+      "Software Design & Architecture",
+      "Systems Analysis & Modeling",
+      "Agile & Software Development Life Cycle (SDLC)"
+    ]
+  }
+];
+
+export const CERTIFICATION_DATA: Certification[] = [
+  {
+    title: "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate",
+    issuer: "Oracle",
+    issuedDate: "Nov 2025",
+    expiryDate: "Nov 2027",
+    skills: ["AI/ML", "Machine Learning", "Deep Learning", "Gen AI", "OCI AI"]
+  },
+  {
+    title: "Oracle Cloud Infrastructure 2025 Certified Foundations Associate",
+    issuer: "Oracle",
+    issuedDate: "Nov 2025",
+    expiryDate: "Nov 2027",
+    skills: ["Cloud Computing", "Network Programming (TCP/IP, Sockets)", "Analytical Skills"]
+  },
+  {
+    title: "Tata Group - GenAI Powered Data Analytics Job Simulation",
+    issuer: "Forage",
+    issuedDate: "Jun 2025",
+    credentialId: "eirTkFYcQt6wX5N89",
+    skills: ["GenAI", "Data Analytics", "Python", "Data Visualization"]
+  },
+  {
+    title: "Getting Started with GIS",
+    issuer: "Esri",
+    issuedDate: "Apr 2025",
+    credentialId: "04022025",
+    skills: ["ArcGIS Pro", "ArcGIS Products", "ArcGIS Desktop"]
+  },
+  {
+    title: "Academy Accreditation - Generative AI Fundamentals",
+    issuer: "Databricks",
+    issuedDate: "Sep 2024",
+    expiryDate: "Sep 2026",
+    credentialId: "116106438",
+    skills: ["Generative AI", "LLMs", "AI Applications"]
+  },
+  {
+    title: "Fundamentals of Predictive Project Management",
+    issuer: "Project Management Institute",
+    issuedDate: "Jan 2024",
+    skills: ["Project Management", "Predictive Analytics", "Leadership"]
+  },
+  {
+    title: "Introduction to Packet Tracer",
+    issuer: "Cisco",
+    issuedDate: "Jan 2024",
+    skills: ["Network Fundamentals", "Packet Tracer", "Networking"]
+  },
+  {
+    title: "JavaScript Arrays",
+    issuer: "LinkedIn Learning",
+    issuedDate: "Aug 2023",
+    skills: ["JavaScript", "Arrays", "Web Development"]
+  }
+];
+
+export const ACTIVITY_DATA: Activity[] = [
+  {
+    title: "Class Representative",
+    organization: "Algonquin College of Applied Arts and Technology",
+    date: "2023/2024",
+    category: "Leadership",
+    description: "Selected to represent my program and undertook various responsibilities fostering effective communication, enhancing self-confidence, and developing leadership skills. Recognized through Algonquin College's Co-Curricular Record Program."
+  },
+  {
+    title: "Student Volunteer - New International Student Social (NISS)",
+    organization: "Algonquin College of Applied Arts and Technology",
+    date: "Jan 2024 – 1 month",
+    category: "Volunteering",
+    description: "Engaged volunteer leading efforts to create a warm and inclusive environment. Organized activities and facilitated connections for seamless integration of international students, emphasizing community building within diverse student population."
+  },
+  {
+    title: "Student Volunteer - Event Assistance",
+    organization: "Algonquin College of Applied Arts and Technology",
+    date: "Sep 2023 – 1 month",
+    category: "Volunteering",
+    description: "Actively contributed as event assistance to new students, making a positive impact. Boosted teamwork and collaboration with personal and professional growth in a vibrant college environment."
+  }
+];
+
+

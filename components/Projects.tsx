@@ -3,11 +3,11 @@ import { PROJECT_DATA } from '../constants';
 
 const Projects: React.FC = () => {
   return (
-    <section id="projects" className="py-24">
+    <section id="projects" className="py-24 bg-slate-900/30">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center gap-4 mb-12">
           <h2 className="text-3xl font-bold text-slate-100 flex items-center gap-2">
-            <span className="text-emerald-400 font-mono text-xl">04.</span> Featured Projects
+            <span className="text-emerald-400 font-mono text-xl">05.</span> Featured Projects
           </h2>
           <span className="h-px bg-slate-700 flex-grow max-w-xs"></span>
         </div>

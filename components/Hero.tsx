@@ -57,18 +57,18 @@ const Hero: React.FC = () => {
           <span className="h-px w-12 bg-slate-700"></span>
           <div className="flex gap-6 text-2xl text-slate-400">
             <a href={SOCIAL_LINKS.github} target="_blank" rel="noopener noreferrer" className="hover:text-emerald-400 hover:-translate-y-1 transition-all focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:ring-offset-2 focus:ring-offset-slate-950 rounded" aria-label="Visit GitHub Profile">
-              <i className="fab fa-github"></i>
+              <i className="fab fa-github" aria-hidden="true"></i>
             </a>
             <a href={SOCIAL_LINKS.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 hover:-translate-y-1 transition-all focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-slate-950 rounded" aria-label="Visit LinkedIn Profile">
-              <i className="fab fa-linkedin"></i>
+              <i className="fab fa-linkedin" aria-hidden="true"></i>
             </a>
             <a href={SOCIAL_LINKS.email} className="hover:text-emerald-400 hover:-translate-y-1 transition-all focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:ring-offset-2 focus:ring-offset-slate-950 rounded" aria-label="Send Email">
-              <i className="fas fa-envelope"></i>
+              <i className="fas fa-envelope" aria-hidden="true"></i>
             </a>
           </div>
           
           <div className="font-mono text-xs text-slate-500 flex items-center gap-2 ml-4">
-            <i className="fas fa-location-dot text-emerald-500"></i>
+            <i className="fas fa-location-dot text-emerald-500" aria-hidden="true"></i>
             Canada
           </div>
         </div>
