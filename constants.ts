@@ -33,7 +33,7 @@ export const EXPERIENCE_DATA: Experience[] = [
   {
     role: "AI Engineer",
     company: "Xenara AI | Remote",
-    date: "March 2025 – December 2025",
+    date: "March 2025 – January 2026",
     achievements: [
       "RAG Architecture: Architected production-ready Retrieval-Augmented Generation (RAG) pipelines using LangChain and Pinecone, enabling semantic search over large unstructured datasets.",
       "Backend Optimization: Engineered high-performance FastAPI endpoints integrated with Redis caching, reducing data retrieval latency by 30% for high-traffic endpoints.",
