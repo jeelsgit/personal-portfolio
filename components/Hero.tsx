@@ -31,13 +31,15 @@ const Hero: React.FC = () => {
         </div>
         
         <h2 className="text-4xl md:text-6xl font-bold text-slate-400 mb-6 tracking-tight">
-          Software Engineer & <br className="hidden md:block" />
-          <span className="text-cyan-400">Spatial Data Analyst</span>.
+          Software <span className="text-cyan-400">Engineer</span>.
         </h2>
         
         <p className="max-w-xl text-slate-400 text-lg mb-8 leading-relaxed">
-          Bridging the gap between Enterprise Software, AI, and Geospatial Intelligence.
-          I build systems that understand the <span className="text-emerald-400 font-mono text-base">where</span> as much as the <span className="text-cyan-400 font-mono text-base">what</span>.
+          I build backend systems, ML-powered services, and data pipelines with{' '}
+          <span className="text-emerald-400 font-mono text-base">Python</span>,{' '}
+          <span className="text-emerald-400 font-mono text-base">Java</span>, and{' '}
+          <span className="text-emerald-400 font-mono text-base">PostgreSQL</span>.
+          Currently building toward <span className="text-cyan-400 font-mono text-base">geospatial</span> engineering.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -69,7 +71,7 @@ const Hero: React.FC = () => {
           
           <div className="font-mono text-xs text-slate-500 flex items-center gap-2 ml-4">
             <i className="fas fa-location-dot text-emerald-500" aria-hidden="true"></i>
-            Canada
+            Ottawa, Canada
           </div>
         </div>
       </div>
