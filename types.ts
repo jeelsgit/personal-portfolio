@@ -3,6 +3,7 @@ export interface Project {
   description: string;
   tech: string[];
   repoUrl?: string;
+  imageUrl?: string;
 }
 
 export interface Experience {
