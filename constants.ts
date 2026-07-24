@@ -1,5 +1,7 @@
 import { Experience, Project, SkillGroup, Education, Certification, Activity } from './types';
 
+
+
 export const SOCIAL_LINKS = {
   github: "https://github.com/jeelsgit",
   linkedin: "https://www.linkedin.com/in/jeel-tandel-6b6822294/",
@@ -68,35 +70,41 @@ export const PROJECT_DATA: Project[] = [
     description: "Built a distributed REST API layer using Java with 90%+ test coverage, ensuring system stability and scalability. Developed a responsive frontend user interface using TypeScript, enabling seamless interaction with backend services for task tracking and status updates.",
     tech: ["Java", "TypeScript", "REST API"],
     repoUrl: "https://github.com/jeelsgit/Task-Manager",
+    imageUrl: "/images/task-manager.png",
   },
   {
     title: 'Analysis of Accessibility to Key Urban Amenities in Ottawa',
     description: 'Identified and visualized accessibility deserts and oases in Ottawa using ArcGIS Pro. The project demonstrates a full GIS workflow from open data acquisition to spatial analysis and cartographic presentation, focusing on walking access to parks, transit, and community facilities.',
     tech: ['ArcGIS Pro', 'GIS', 'Spatial Analysis', 'Cartography'],
     repoUrl: 'https://github.com/jeelsgit/Ottawa-Accessibility-Analysis',
+    imageUrl: "/images/ottawa-accessibility.png",
   },
   {
     title: "Flood Risk Analysis Tool (NASA Space Apps)",
     description: "Engineered a data-driven prototype in 48 hours, integrating multiple environmental APIs to visualize critical flood data on a spatial interface. Conducted real-time spatial data cleaning and validation using Python libraries (Pandas/GeoPandas) to ensure the accuracy of risk assessment models.",
     tech: ["Python", "GIS APIs", "Pandas", "GeoPandas"],
     repoUrl: "https://github.com/jeelsgit/NASA-Space-Apps-Flood-Mapping"
+    imageUrl: "/images/flood-risk.png",
   },
   {
     title: "Spotify Database Architecture",
     description: "Designed a normalized (3NF) relational schema handling complex many-to-many relationships between artists, albums, and playlists, and wrote PL/SQL stored procedures and triggers to automate playlist logic and enforce data consistency.",
-    tech: ["Oracle 19c", "PL/SQL", "Data Modelling"]
+    tech: ["Oracle 19c", "PL/SQL", "Data Modelling"],
+    imageUrl: "/images/spotify-db.png",
   },
   {
     title: 'Accessible Notes App (Compose)',
     description: 'An accessible notes application for Android built with Jetpack Compose. Features include creating, viewing, editing, and deleting notes, with local data persistence using Room.',
     tech: ['Kotlin', 'Jetpack Compose', 'Room', 'Android'],
     repoUrl: 'https://github.com/jeelsgit/AccessibleNotesApp-Compose',
+    imageUrl: "/images/notes-app.png",
   },
   {
     title: 'Student Record System (JavaFX)',
     description: 'A desktop application for managing student records, built with JavaFX, Java, Apache Maven, and SQLite. Demonstrates full CRUD operations, dynamic search, input validation, and a clean user interface.',
     tech: ['Java', 'JavaFX', 'SQLite', 'Maven'],
     repoUrl: 'https://github.com/jeelsgit/Student-Record-System-JavaFX',
+    imageUrl: "/images/student-records.png",
   },
 ];
 
