@@ -26,7 +26,7 @@ const Navbar: React.FC = () => {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
               {navLinks.map((link, index) => (
-                
+                <a
                   key={link.name}
                   href={link.href}
                   className="font-mono text-sm hover:text-emerald-400 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:ring-offset-2 focus:ring-offset-slate-950 rounded px-2 py-1"
@@ -59,7 +59,7 @@ const Navbar: React.FC = () => {
         <div className="md:hidden bg-slate-900 border-b border-slate-800" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {navLinks.map((link, index) => (
-              
+              <a
                 key={link.name}
                 href={link.href}
                 onClick={() => setIsOpen(false)}
