@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-2xl font-bold text-slate-100 mb-4">Get In Touch</h2>
         <p className="text-slate-400 mb-8 max-w-lg mx-auto">
-          Open for opportunities in Full Stack Development, Data Engineering, and GIS Analysis.
+          Open to Software Engineering, Backend Development, and Data Engineering roles — Ottawa or remote across Canada. Open to relocation.
         </p>
         
         <a 
