@@ -83,7 +83,7 @@ export const PROJECT_DATA: Project[] = [
     title: "Flood Risk Analysis Tool (NASA Space Apps)",
     description: "Engineered a data-driven prototype in 48 hours, integrating multiple environmental APIs to visualize critical flood data on a spatial interface. Conducted real-time spatial data cleaning and validation using Python libraries (Pandas/GeoPandas) to ensure the accuracy of risk assessment models.",
     tech: ["Python", "GIS APIs", "Pandas", "GeoPandas"],
-    repoUrl: "https://github.com/jeelsgit/NASA-Space-Apps-Flood-Mapping"
+    repoUrl: "https://github.com/jeelsgit/NASA-Space-Apps-Flood-Mapping",
     imageUrl: "/images/flood-risk.png",
   },
   {
