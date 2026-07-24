@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
               <span className="text-white">JT</span>.dev()
             </a>
           </div>
-          
+
           {/* Desktop Menu */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
@@ -37,6 +37,7 @@ const Navbar: React.FC = () => {
               ))}
             </div>
           </div>
+
           {/* Mobile Menu Button */}
           <div className="-mr-2 flex md:hidden">
             <button
@@ -52,6 +53,7 @@ const Navbar: React.FC = () => {
           </div>
         </div>
       </div>
+
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-slate-900 border-b border-slate-800" id="mobile-menu">
