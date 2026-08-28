@@ -10,6 +10,16 @@ export const SOCIAL_LINKS = {
 
 export const SKILL_GROUPS: SkillGroup[] = [
   {
+    category: "IT Support & Service Desk",
+    icon: "fa-solid fa-headset",
+    skills: ["ServiceNow (Incident Logging, Escalation)", "Tier-1 End-User Support", "Priority-Based Triage", "AnyDesk / TeamViewer", "Active Directory", "Microsoft 365", "Incident Documentation", "User Training & Onboarding"]
+  },
+  {
+    category: "Systems, Hardware & Networking",
+    icon: "fa-solid fa-network-wired",
+    skills: ["Windows 10/11", "iOS/iPadOS", "Linux (Ubuntu)", "macOS", "POS Terminals", "Receipt & Label Printers", "TCP/IP, DNS/DHCP, VPN, Wi-Fi", "Ethernet & Structured Cabling"]
+  },
+  {
     category: "Languages & Backend",
     icon: "fa-solid fa-code",
     skills: ["Python (FastAPI, Pandas)", "Java", "JavaScript/TypeScript", "RESTful APIs", "Node.js", "OAuth 2.0"]
