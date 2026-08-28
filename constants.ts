@@ -133,6 +133,12 @@ export const EDUCATION_DATA: Education[] = [
 
 export const CERTIFICATION_DATA: Certification[] = [
   {
+    title: "CompTIA A+ (In Progress — Expected December 2026)",
+    issuer: "CompTIA",
+    issuedDate: "In Progress",
+    skills: ["Hardware", "Operating Systems", "Networking", "Troubleshooting", "Security Fundamentals"]
+  },
+  {
     title: "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate",
     issuer: "Oracle",
     issuedDate: "Nov 2025",
