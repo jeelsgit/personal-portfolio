@@ -31,15 +31,16 @@ const Hero: React.FC = () => {
         </div>
         
         <h2 className="text-4xl md:text-6xl font-bold text-slate-400 mb-6 tracking-tight">
-          Software <span className="text-cyan-400">Engineer</span>.
+          IT <span className="text-cyan-400">Support</span> Specialist.
         </h2>
         
         <p className="max-w-xl text-slate-400 text-lg mb-8 leading-relaxed">
-          I build backend systems, ML-powered services, and data pipelines with{' '}
-          <span className="text-emerald-400 font-mono text-base">Python</span>,{' '}
-          <span className="text-emerald-400 font-mono text-base">Java</span>, and{' '}
-          <span className="text-emerald-400 font-mono text-base">PostgreSQL</span>.
-          Currently building toward <span className="text-cyan-400 font-mono text-base">geospatial</span> engineering.
+          First-line support for{' '}
+          <span className="text-emerald-400 font-mono text-base">Windows</span>,{' '}
+          <span className="text-emerald-400 font-mono text-base">iOS</span>, and networked
+          hardware — incident logging and escalation in{' '}
+          <span className="text-cyan-400 font-mono text-base">ServiceNow</span>, backed by an
+          Advanced Diploma in Computer Programming & Analysis.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 mb-12">
