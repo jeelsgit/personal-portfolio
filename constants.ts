@@ -52,13 +52,8 @@ export const EXPERIENCE_DATA = [
     date: 'March 2025 – February 2026',
     company: 'Xenara Inc. | Mississauga, ON (Remote)',
     achievements: [
-      'ML Feature Development: Developed and tested ML-powered features for Xenara\'s customer engagement platform, building scalable FastAPI endpoints to serve models in production.',
-      'NLP Pipelines: Built NLP workflows using Azure OpenAI, Hugging Face Transformers, and SpaCy — including Named Entity Recognition, intent recognition, and sentiment analysis — to automate extraction and classification from unstructured text.',
-      'Model Training: Trained and evaluated custom deep learning models with PyTorch and TensorFlow/Keras, supporting deployment and experiment tracking through Azure Machine Learning.',
-      'Semantic Search: Contributed to a production RAG pipeline using LangChain and Pinecone, helping validate the architecture and reviewing design decisions for correctness.',
-      'Data Engineering: Built preprocessing and feature-engineering pipelines transforming raw text stored in MongoDB into structured formats for model training and analytics.',
-      'DevOps & Cloud: Containerized services with Docker and worked with Azure Blob Storage for datasets and model artifacts, keeping environments consistent across development and production.',
-      'Mentorship: Onboarded and mentored new interns on the codebase, tooling, and development workflow while adhering to team coding standards in an Agile environment.',
+      'Diagnostics: Investigated and reproduced production faults across application, database, and deployment layers, identifying root causes and confirming fixes.',
+      'Onboarding & Documentation: Set up and configured new hires\' machines and working environments, and wrote the setup guide the team used for onboarding.',
     ],
   },
   {
@@ -66,10 +61,7 @@ export const EXPERIENCE_DATA = [
     date: 'September 2024 – December 2024',
     company: 'Appy.yo | Vancouver, BC (Remote)',
     achievements: [
-      'Database Optimization: Analyzed and optimized PostgreSQL schema and indexing strategies, resulting in a 20% improvement in query execution time for critical reporting tools.',
-      'Secure API Development: Designed secure, scalable REST components in Java and Python for the FlexyGig platform, implementing OAuth 2.0 authentication flows to safeguard multi-tenant user data.',
-      'ETL Automation: Developed automated scripts to extract, transform, and load data from external third-party sources into central repositories, ensuring high data availability and design conformance.',
-      'Agile Collaboration: Collaborated in 2-week Agile sprints using Jira, conducting peer code reviews to maintain code quality and design standards.',
+      'Performance Troubleshooting: Traced slow application response times to database query performance and implemented fixes, improving PostgreSQL response by 20%.',
     ],
   },
 ];
